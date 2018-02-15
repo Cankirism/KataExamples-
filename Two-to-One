@@ -1,0 +1,9 @@
+def longest(s1, s2):
+    tumu = s1 + s2 
+    tekil ='' 
+    for a in tumu : 
+        if a not in tekil :
+            tekil = tekil + a 
+        
+    return ''.join(sorted(tekil))    
+
